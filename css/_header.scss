@@ -1,0 +1,9 @@
+header {
+    @include flexCenter(column);
+    font-size: 4vh;
+    font-family: $rusoFont;
+    h1{
+        text-align: center;
+    }
+    margin-bottom: 3vh;
+}

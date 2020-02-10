@@ -1,0 +1,10 @@
+@import "variables";
+@import "header";
+@import "clock";
+
+body{
+    background: url("../background-img.jpg");
+    color:white;
+    background-size: 250vh;
+    background-repeat: no-repeat;
+}

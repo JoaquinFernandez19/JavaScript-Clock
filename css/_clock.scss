@@ -1,0 +1,28 @@
+.clock {
+    font-size: 10vh;
+    @include flexCenter(row);
+    font-family: $rusoFont;
+    p {
+        font-size: 80%;
+    }
+    
+}
+.date {
+    font-size: 10vh;
+    @include flexCenter(row);
+    font-family: $rusoFont;
+    p {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    .clock {
+        p {
+            font-size: 70%;
+        }
+        span{
+            font-size: 70%;
+        }
+    }
+}

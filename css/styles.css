@@ -1,0 +1,83 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 4vh;
+  font-family: "Russo One", sans-serif;
+  margin-bottom: 3vh;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.clock {
+  font-size: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Russo One", sans-serif;
+}
+
+.clock p {
+  font-size: 80%;
+}
+
+.date {
+  font-size: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Russo One", sans-serif;
+}
+
+.date p {
+  font-size: 80%;
+}
+
+@media (max-width: 600px) {
+  .clock p {
+    font-size: 70%;
+  }
+  .clock span {
+    font-size: 70%;
+  }
+}
+
+body {
+  background: url("../background-img.jpg");
+  color: white;
+  background-size: 250vh;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=styles.css.map */
