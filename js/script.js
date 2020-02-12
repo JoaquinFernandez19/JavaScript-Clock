@@ -45,7 +45,7 @@ function partyEvent(){
     partyButton.innerHTML='Party Time';
     partyButton.style.backgroundColor = 'white';
     partyButton.style.color = 'black';
-    body.style.background = "url('../background-img.jpg')";
+    body.style.background = "url(https://www.itl.cat/pngfile/big/210-2101547_water-beach-dark-noir-monochrome-blackwater-wallpaper-black.jpg)";
     body.style.color = "white";
     hTitle.innerHTML = "Super serious clock";
 
@@ -55,7 +55,7 @@ function partyEvent(){
     partyButton.innerHTML="End party..";
     partyButton.style.backgroundColor = "red";
     partyButton.style.color = "white"; 
-    body.style.background = "url('../party.gif')";
+    body.style.background = "url(https://media1.giphy.com/media/10hO3rDNqqg2Xe/giphy.gif)";
     body.style.backgroundSize = "cover";
     body.style.color = "pink";
     body.style.textShadow = "4px 4px 1px black";
