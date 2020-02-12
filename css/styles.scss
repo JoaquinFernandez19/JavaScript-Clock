@@ -1,10 +1,26 @@
 @import "variables";
 @import "header";
 @import "clock";
-
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 body{
     background: url("../background-img.jpg");
     color:white;
-    background-size: 250vh;
-    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+// Party time setup
+
+.party {
+    margin:10vh;
+    @include flexCenter(column);
+    button {
+        width:15vh;
+        height:4vh;
+        font-family: 'Lacquer', sans-serif;
+        font-size: 2vh;
+        border:6px solid black;
+        outline:none;  
+    }
+    
 }
