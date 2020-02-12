@@ -15,6 +15,7 @@ function counter(){
   h + ":" + m + ":" + s;
   document.getElementById('txtDate').innerHTML =
   d + " - " + mon + " - " + y ;
+
 }
 function checkTime(i) {
     if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
@@ -45,7 +46,7 @@ function partyEvent(){
     partyButton.innerHTML='Party Time';
     partyButton.style.backgroundColor = 'white';
     partyButton.style.color = 'black';
-    body.style.background = "url(https://www.itl.cat/pngfile/big/210-2101547_water-beach-dark-noir-monochrome-blackwater-wallpaper-black.jpg)";
+    body.style.background = "url(https://copperblackservices.com/wp-content/uploads/2018/08/DTvUQor.jpg)";
     body.style.color = "white";
     hTitle.innerHTML = "Super serious clock";
 
@@ -69,6 +70,7 @@ function partyEvent(){
 
 
 partyButton.addEventListener('click', partyEvent);
+
 
 
 
