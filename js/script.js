@@ -57,6 +57,9 @@ function partyEvent(){
     partyButton.style.backgroundColor = "red";
     partyButton.style.color = "white"; 
     body.style.background = "url(https://media1.giphy.com/media/10hO3rDNqqg2Xe/giphy.gif)";
+    body.style.backgroundRepeat = "no-repeat";
+    body.style.backgroundPosition = "center center";
+    body.style.backgroundAttachment = "fixed";
     body.style.backgroundSize = "cover";
     body.style.color = "pink";
     body.style.textShadow = "4px 4px 1px black";

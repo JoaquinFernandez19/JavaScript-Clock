@@ -63,6 +63,7 @@ header h1 {
 
 .date p {
   font-size: 5vh;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -76,6 +77,8 @@ header h1 {
 
 body {
   background-color: black;
+  background-position: center center;
+  background-repeat: no-repeat;
   color: white;
   background-size: cover;
 }
@@ -99,7 +102,7 @@ body {
 
 .party button {
   width: 15vh;
-  height: 4vh;
+  height: 100px;
   font-family: 'Lacquer', sans-serif;
   font-size: 2vh;
   border: 6px solid black;

@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
 body{
     background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
     color:white;
     background-size: cover;
 }
@@ -16,7 +18,7 @@ body{
     @include flexCenter(column);
     button {
         width:15vh;
-        height:4vh;
+        height:100px;
         font-family: 'Lacquer', sans-serif;
         font-size: 2vh;
         border:6px solid black;
