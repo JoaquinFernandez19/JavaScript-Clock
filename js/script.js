@@ -55,7 +55,7 @@ function partyEvent(){
     partyActivator = 2;
 
     partyButton.innerHTML="End party..";
-    partyButton.style.backgroundColor = "red";
+    partyButton.style.backgroundColor = "#ec0aca";
     partyButton.style.color = "white"; 
     body.style.background = "url(https://media1.giphy.com/media/10hO3rDNqqg2Xe/giphy.gif)";
     body.style.backgroundRepeat = "no-repeat";
@@ -65,7 +65,7 @@ function partyEvent(){
     body.style.color = "pink";
     body.style.textShadow = "4px 4px 1px black";
     partyButton.style.boxShadow = "4px 4px 5px black";
-    hTitle.innerHTML = "Party CloOoOoOock";
+    hTitle.innerHTML = "Sorry for party clocking";
 
 
   }
