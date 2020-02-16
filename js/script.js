@@ -46,7 +46,8 @@ function partyEvent(){
     partyButton.innerHTML='Party Time';
     partyButton.style.backgroundColor = 'white';
     partyButton.style.color = 'black';
-    body.style.background = "url(https://copperblackservices.com/wp-content/uploads/2018/08/DTvUQor.jpg)";
+    body.style.background = "url()";
+    body.style.backgroundColor = 'black';
     body.style.color = "white";
     hTitle.innerHTML = "Super serious clock";
 
